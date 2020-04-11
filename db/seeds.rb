@@ -1,3 +1,5 @@
+require 'ffaker'
+
 admin_user = AdminUser.create(
   email: 'admin@example.com',
   password: '12345678',
